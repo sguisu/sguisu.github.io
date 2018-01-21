@@ -1,0 +1,78 @@
+# Site settings
+baseURL = "https://www.angel-suarez.com"
+languageCode = "en-US"
+title = "Angel Suarez Guisuraga"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Angel Suarez Guisuraga"
+  description = "Software Architect specialized in Microsoft SharePoint"
+  shareImage = "images/social.jpg"
+  twitterHandle = "sguisu"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2018 Angel Suarez Guisuraga"
+
+  # Section - Content
+  [params.content]
+    name = "Angel Suarez Guisuraga"
+    tagline = "Solution Architect. SharePoint. O365."
+    bio = "Software engineer based in Berlin and focused since 2008 in Microsoft SharePoint technologies. <br/>More than 10 years experience, working as .NET, ASP.NET and finally SharePoint developer/consultant. Since 2016 Software Architect at KPMG IT Services and leading since July 2017 the Solution Architecture team. <br/>Specially interested in Cloud systems, Agile methodologies and the Office 365 platform. <br/>Spanish, English and German."
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background2.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/sguisu/"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "http://www.sharepointpills.com/"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/sguisu"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/elguisu/"
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
